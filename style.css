@@ -1,0 +1,289 @@
+
+@font-face {
+    font-family: Z;
+    src: url(./Druk-Medium-Trial.otf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: hel;
+    src: url(./HelveticaNeueThin.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hel;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family:Helvetica;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 100px;
+    grid-template-areas: "one two three";
+}
+
+.one{
+    color: black;
+    grid-area: one;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two{
+    color: black;
+    grid-area: two;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    color: black;
+    grid-area: three;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+   
+}
+.two a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.three a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.sec1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    padding-top: 10px; 
+    font-family: Z;
+}
+
+.div1 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding-left: 21%;
+}
+
+.div2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25%;
+}
+
+.sec1 h4 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px; 
+    width: 100%;
+    overflow: visible;
+    margin-top: -50px; 
+}
+
+.sec2 h1 {
+    font-family: Z;
+    font-size: 360px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 0.8; 
+    padding-top: 40px;
+    padding-bottom: 60px;
+    transform: scale(1.5, 1.8);
+    letter-spacing: -2px;
+    user-select: none;
+    pointer-events: none;
+    color: transparent;
+    background-image: url('https://wallpapercat.com/w/full/a/c/b/193470-1920x1080-desktop-full-hd-the-weeknd-wallpaper-image.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    top: -105px; 
+}
+
+.sec3 {
+    width: auto;
+    height: 300px;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: #ce1919; 
+    display: grid;
+    grid-template-columns: 20% 60% 20%; 
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+    margin-top: -210px;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+
+.center-img img {
+    height: 50%; 
+    width: auto;
+    max-width: 120%; 
+    object-fit: contain;
+    object-position: bottom;
+    margin-bottom: 0;
+    transform: translateY(-90px);
+}    
+.lyrics-left {
+    position: relative;
+    margin-bottom: 250px;
+    z-index: 200; 
+}
+
+.lyrics-left p {
+    color: white;
+    font-family: hel;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    white-space: nowrap; 
+}
+
+.lyrics-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between; 
+    height: 200px; 
+    text-align: right;
+    position: relative;
+    z-index: 200;
+    margin-bottom: 140px;
+}
+.lyrics-right h2 {
+    font-family: hel;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+    white-space: nowrap; 
+    margin-bottom: 140px;
+}
+
+.lyrics-bottom p {
+    color: white;
+    font-family: hel;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap; 
+
+}
+
+footer {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+footer h3 {
+    font-family: hel;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.idol-title {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    line-height:0.8;
+    margin-bottom: 20px;
+}
+
+.small-the {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ce1919;
+    margin-right: 10px;
+}
+
+.big-idol {
+    font-family: Z;
+    font-size: 150px;
+    color: #ce1919;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+footer h4 {
+    font-family: hel;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.credits-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-family: hel;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.credits-bar a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.credits-bar .designer{
+    padding-left: 80px;
+    margin-top: -70px;
+}
+span{
+    font-size: 25px;
+}
